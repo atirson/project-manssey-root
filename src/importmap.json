@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@manssey/root-config": "//localhost:9000/manssey-root-config.js",
+    "@manssey/administrator": "//localhost:9001/manssey-administrator.js"
+  }
+}
