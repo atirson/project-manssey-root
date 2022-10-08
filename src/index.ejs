@@ -60,6 +60,16 @@
   </script>
   <% } %>
 
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+        "@stark/root-config": "//localhost:9000/stark-root-config.js",
+        "@manssey/administrator": "https://unpkg.com/@atirson/administrator@1.0.0/dist/manssey-administrator.js"
+      }
+    }
+  </script>
+
   <!--
     If you need to support Angular applications, uncomment the script tag below to ensure only one instance of ZoneJS is loaded
     Learn more about why at https://single-spa.js.org/docs/ecosystem-angular/#zonejs
