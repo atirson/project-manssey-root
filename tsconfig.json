@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/manssey-root-config.ts"],
+  "files": ["src/stark-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },
